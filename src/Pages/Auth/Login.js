@@ -82,10 +82,10 @@ const Login = () => {
         options={{
           background: {
             color: {
-              value: "#000",
+              value: "Green",
             },
           },
-          fpsLimit: 60,
+          fpsLimit: 120,
           particles: {
             number: {
               value: 200,
@@ -95,7 +95,7 @@ const Login = () => {
               },
             },
             color: {
-              value: "#ffcc00",
+              value: "blue",
             },
             shape: {
               type: "circle",
@@ -149,7 +149,7 @@ const Login = () => {
           <Col md={{ span: 6, offset: 3 }}>
             <h1 className="text-center mt-5">
               <AccountBalanceWalletIcon
-                sx={{ fontSize: 40, color: "white" }}
+                sx={{ fontSize: 40, color: "orange" }}
                 className="text-center"
               />
             </h1>
